@@ -5,119 +5,106 @@
 }
 
 .clearfix:after {
-    content:"";
+    content: "";
     display: table;
     clear: both;
 }
 
 /* BODY E CONTAINER
 =================== */
-
-body{
+body {
     font-family: 'Lato', sans-serif;
-
 }
 
-.container-full{
+.container-full {
     width: 100%;
     overflow: hidden;
-
 }
 
-.container{
+.container {
     width: 80%;
     max-width: 1400px;
     margin: 0 auto;
-
 }
 
-.full-1{
+.full-1 {
     background-color: #0d325a;
 }
-.full-2{
+
+.full-2 {
     background-color: #f9f9f9;
 }
-.full-3{
+
+.full-3 {
     background-color: #fff;
 }
 
-
 /* HEADER
 ========== */
-
-header{
+header {
     height: 90px;
 }
 
-header .logo-box, nav, .buttons-box{
+header .logo-box, nav, .buttons-box {
     position: relative;
     top: 50%;
     transform: translate(0, -50%);
 }
 
-header ul li{
+header ul li {
     display: inline-block;
     margin-right: 15px;
 }
 
-.logo-box, nav{
+.logo-box, nav {
     float: left;
 }
-.buttons-box{
-    float:right;
+
+.buttons-box {
+    float: right;
 }
 
-.logo-box{
+.logo-box {
     margin-right: 50px;
 }
 
-.buttons-box li:last-of-type{
+.buttons-box li:last-of-type {
     margin-right: 0;
 }
 
-
 /* BANNER
 =========*/
-
-.banner{
+.banner {
     height: 400px;
-    padding-top:80px;
+    padding-top: 80px;
     position: relative;
-
 }
 
-.title-box{
+.title-box {
     max-width: 45%;
-
     margin-bottom: 60px;
 }
 
-
-.banner-img-box{
+.banner-img-box {
     height: 370px;
     position: absolute;
     bottom: 0;
     right: 0;
     transform: translate(42%, 0%);
-
 }
 
-.banner-img-box img{
+.banner-img-box img {
     height: 100%;
-
-
-
 }
 
 /* TIPOGRAFIA HEADER & BANNER
 ============================= */
-
-h1{
+h1 {
     font-size: 42px;
     color: #fff;
 }
 
-nav a, a.tutor{
+nav a, a.tutor {
     font-size: 12px;
     text-decoration: none;
     color: #fff;
@@ -127,93 +114,90 @@ a.tutor {
     color: lightgrey;
 }
 
-a.login, a.piano{
+a.login, a.piano {
     color: #fff;
     text-decoration: none;
     font-size: 12px;
     font-weight: 700;
 }
 
-a.login{
+a.login {
     border: 1px solid lightblue;
     border-radius: 5px;
     padding: 7px 25px;
 }
 
-a.piano{
+a.piano {
     border-radius: 5px;
     padding: 8px;
     background-color: #7fb802;
 }
 
-.banner a.piano{
+.banner a.piano {
     padding: 16px;
     font-size: 14px;
 }
 
-nav a:hover{
+nav a:hover {
     color: #f8b71c;
 }
 
-
 /* LINEA GRIGIA (FULL-2)
 ========================*/
-
-.full-2 .container{
+.full-2 .container {
     text-align: center;
 }
 
-.full-2 h4{
+.full-2 h4 {
     font-size: 22px;
     font-weight: 300;
-    padding-top:50px;
+    padding-top: 50px;
 }
 
-.full-2 p{
+.full-2 p {
     font-size: 18px;
     color: grey;
-    margin-top:10px;
+    margin-top: 10px;
     padding-bottom: 50px;
 }
 
 /* CARDS (FULL-3)
 =================*/
-
-.card{
-    float:left;
-    width:33.33333%;
+.card {
+    float: left;
+    width: 33.33333%;
     padding-top: 30px;
     text-align: center;
 }
 
-.card.c2{
+.card.c2 {
     padding-left: 40px;
     padding-right: 40px;
 }
 
-.full-3 img{
+.full-3 img {
     height: 160px;
     margin-bottom: 80px;
 }
 
-.full-3 h6{
+.full-3 h6 {
     color: #7fb802;
     font-size: 22px;
     font-weight: 400;
 }
 
-.small-line{
-    border:1px solid lightgrey;
+.small-line {
+    border: 1px solid lightgrey;
     width: 30px;
     position: relative;
-    left:50%;
+    left: 50%;
     transform: translate(-50%);
     margin: 20px 0;
 }
 
-.full-3 p{
+.full-3 p {
     color: grey;
     line-height: 1.5em;
     font-weight: 300;
-    margin-bottom:80px;
+    margin-bottom: 80px;
 }
